@@ -6,16 +6,11 @@ import { RegisterComponent } from '../pages/register/register.component';
 import { LoginComponent } from './login/login.component';
 
 
-
-
 const routes: Routes = [
 
     {path: 'register', component: RegisterComponent},
   
     {path: 'login', component: LoginComponent}, 
-
-
-
 ];
 
 @NgModule ({
@@ -23,4 +18,5 @@ const routes: Routes = [
     exports: [RouterModule]
 
 })
+
 export class AuthRoutingModule {}
